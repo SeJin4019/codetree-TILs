@@ -14,9 +14,9 @@ public class Main {
            }else if(month == 2){
               if(month % 4 == 0){
                 if(month % 100 == 0 && month % 400 != 0){
-                    System.out.println(29);    
-                }else{
                     System.out.println(28);    
+                }else{
+                    System.out.println(29);    
                 }
             }
            }
