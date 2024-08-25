@@ -10,7 +10,7 @@ public class Main {
             for(int i = 1; i < n+1; i++){
                 System.out.print(i + " ");
             }
-        }else if(c.equals("D")){
+        }else {
             for(int i = n; n >= 1; i--){
                 System.out.print(i + " ");
             }
