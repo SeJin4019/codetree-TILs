@@ -16,7 +16,8 @@ public class Main {
         }
 
         avg = (double)sum / count;
-        System.out.print(sum+" ");
-        System.out.print(Math.round(avg,1));
+        
+         // 출력
+        System.out.printf("%d %.1f", sum, avg);
     }
 }
