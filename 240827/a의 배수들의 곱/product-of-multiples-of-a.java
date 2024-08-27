@@ -7,8 +7,8 @@ public class Main {
         int b = sc.nextInt();
         int prod = 1;
 
-        for(int i = i; i <= b; i++){
-            if(a % i == 0){
+        for(int i = a; i <= b; i++){
+            if(i % a == 0){
                 prod *= i;
             }
         }
