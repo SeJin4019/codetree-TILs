@@ -8,7 +8,7 @@ public class Main {
         int prod = 1;
 
         for(int i = i; i <= b; i++){
-            if(i % a == 0){
+            if(a % i == 0){
                 prod *= i;
             }
         }
