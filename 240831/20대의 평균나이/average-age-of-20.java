@@ -2,18 +2,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int total = 0;
+        double sum = 0;
         int count = 0;
 
-        while(true){
+        while(true) {
             int age = sc.nextInt();
-            if(age > 20 && age >= 30){
-                System.out.printf("%.2f", (double)total / count);
+            if(age>29 || age<20) {
+                System.out.printf("%.2f", sum/count);
                 break;
             }
-                total += age;
-                count++;   
-            
+            sum+=age;
+            count++;
         }
+    }
     }
 }
