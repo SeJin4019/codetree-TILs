@@ -10,12 +10,11 @@ public class Main {
             if(age < 30){
                 total += age;
                 count++;   
-            }
-            
-            if(age >= 30) {
+            }else{
                 System.out.printf("%.2f", (double)total / count);
                 break;
             }
+            
         }
     }
 }
