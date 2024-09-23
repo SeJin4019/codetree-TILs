@@ -14,9 +14,9 @@ public class Main {
             }
         }
         if(flag == true){
-            System.out.print(1);
+            System.out.print("1");
         }else{
-            System.out.print(0);
+            System.out.print("0");
         }
     }
 }
