@@ -8,11 +8,12 @@ public class Main {
         boolean flag = false;
 
         for(int i = a; i <= b; i++){
-            if(i % 1920 == 0 && i % 2880 == 0){
+            if(1920 % i == 0 || 2880 % i == 0){
                 flag = true;
+                break;
             }
         }
-        if(flag){
+        if(flag == true){
             System.out.print(1);
         }else{
             System.out.print(0);
